@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#latestResultContent{
+    margin-top: 50px;
+}
+
+#finalResultText{
+
+    text-align: center;
+    font-size: 50px;
+    width: 25%;
+    margin: auto;
+}
+
+#matchType{
+
+    color:#080A3D;
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    margin-top: 20px;
+    width: 25%;
+
+}
+
+#latestResultTeam1{
+    float: left;
+    width: 17%;
+}
+
+#latestResultTextContent{
+    float: left;
+    width: 64.5%;
+    margin-top: -20px;
+}
+
+#latestResultTeam1Score{
+    float: left;
+    padding-left: 10px;
+    margin-top: 25px;
+    width: 38%;
+}
+
+#latestResultTeam2ScoreLine1{
+    padding-left: 150px;
+}
+
+#latestResultTeam2ScoreLine2{
+    padding-left: 150px;
+}
+
+#latestResultTeam2ScoreLine3{
+    padding-left: 150px;
+}
+
+.latestResultTeamScoreLine1{
+    font-size: 25px;
+    color: rgb(187, 151, 65);
+}
+
+.latestResultTeamScoreLine2{
+    font-size: 40px;
+    font-weight: 500;
+    color:#080A3D;
+}
+
+.latestResultTeamScoreLine3{
+    font-size: 25px;
+    font-weight: 500;
+    color:#080A3D;
+}
+
+#latestResultVs{
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    color:#080A3D;
+    margin-top: 80px;
+    font-weight: 600;
+    width: 18%;
+}
+
+#latestResultTeam2Score{
+    float: left;
+    width: 40%;
+    margin-top: 25px;
+}
+
+#winningResults{
+    clear: both;
+    margin-top: 50px;
+    padding-right: 20px;
+    padding-left: 12px;
+    color:#080A3D;
+    font-size: 20px;
+    font-weight: 450;
+    text-align: center;
+}
+
+#latestResultTeam2{
+    float: left;
+    width: 17%;
+}
+
+.latestResultTeamLogo{
+    width: 200px;
+    height: 200px;
+}
+
+img{
+    border-radius: 50px;
+}
+
+hr{
+    border: 2px solid;
+    color: rgb(187, 151, 65);
+}
