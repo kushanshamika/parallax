@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#leaderboard {
+    background-image: linear-gradient(rgba(8, 10, 61, 0.78), rgba(8, 10, 61, 0.78)), url("../images/ground.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10px 80px 0 80px;
+}
+
+#leaderboard-header {
+    color: white;
+}
+
+#leaderboard table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+  
+#leaderboard td, #leaderboard th {
+    border: none;
+    padding: 8px;
+}
+
+#leaderboard td {
+    color: white;
+    height: 40px;
+}
+  
+#leaderboard tr:nth-child(even){
+    background-color: #4e4e71;
+}
+
+#leaderboard tr:nth-child(odd){
+    background-color: #0f123e;
+}
+  
+#leaderboard th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #BB9741;
+    height: 30px;
+}
+
+#team-name {
+    width: 700px;
+}
+
+#points {
+    width: 70px;
+}
+
+#team-no {
+    width: 70px;
+}
