@@ -1,55 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lankan Premier League</title>
 
     <link rel="stylesheet" href="styles/latestResults.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/71e9b0d6d5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-    <div id = "heading">
-        <h1>LATEST RESULTS</h1>
-        <h2>SEMI FINALS</h2>
+    <div id="latestResults">
+        <div id="finalResultText">LATEST RESULT</div>
+        <div id="matchType">SEMI FINALS</div>
+
     </div>
 
-    <div class="contentArea">
-        <div class="kandy">
-            <img src="images/Team Logos/KandyTuskers_Logo.jpg" alt="KandyTuskers_Logo" width="200" height="200">
+
+    <div id="latestResultContent">
+
+        <div id="latestResultTeam1">
+            <img class="latestResultTeamLogo" src="images/Team Logos/KandyTuskers_Logo.jpg" alt="KandyTuskers_Logo">
         </div>
 
-        <div>
-            <div class="kandyScore">
-                <p id="kandyScoreLine1">KANDY</p>
-                <p id="kandyScoreLine2">TUSKERS</p>
-                <p id="kandyScoreLine3">100/5</p>
-            </div>
-            <div class="vs">
-                <ul id="vs">VS</ul>
-            </div>
-            <div id="dabullaScore">
-                <p id="dabullaScoreLine1">BADULLA</p>
-                <p id="dabullaScoreLine2">HAWKS</p>
-                <p id="dabullaScoreLine3">120/9</p>
+        <div id="latestResultTextContent">
+
+            <div id="latestResultTeam1Score">
+                <div class="latestResultTeamScoreLine1">KANDY</div>
+                <div class="latestResultTeamScoreLine2">TUSKERS</div>
+                <div class="latestResultTeamScoreLine3">100/5</div>
             </div>
 
-            <div>
-            <hr>
-            <div>
-                <p id="winningResults">Dabulla Hawks won by 20 runs</p>
+            <div id="latestResultVs">VS</div>
+
+            <div id="latestResultTeam2Score">
+                <div id="latestResultTeam2ScoreLine1" class="latestResultTeamScoreLine1">BADULLA</div>
+                <div id="latestResultTeam2ScoreLine2" class="latestResultTeamScoreLine2">HAWKS</div>
+                <div id="latestResultTeam2ScoreLine3" class="latestResultTeamScoreLine3">120/9</div>
             </div>
+
+            <div id="winningResults">
+                <hr>
+                Dabulla Hawks won by 20 runs
             </div>
 
         </div>
 
-        <div class="dabulla">
-            <img src="images/Team Logos/DabullaHawks_Logo.jpg" alt="DabullaHawks_Logo" width="200" height="200">
-        </div>
-      </div>
+            <div id="latestResultTeam2">
+                <img class="latestResultTeamLogo" src="images/Team Logos/DabullaHawks_Logo.jpg" alt="DabullaHawks_Logo">
+            </div>
+        
+    </div>
 
-    
+
 </body>
+
 </html>
