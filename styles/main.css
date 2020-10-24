@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+body, html {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#headerLplUpper {
+    position: relative;
+    background-color: #080a3d;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    float: left;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#headerGetTickets {
+    font-weight: 450;
+    float: left;
+    letter-spacing: 3px;
+}
+
+#getTicketsIcon{
+    display: inline;
+    float: left;
+    margin: 10px;
+    width: 25px;
+}
+
+#headerLiveBtnDiv{
+    position: relative;
+    float: right;
+    overflow: hidden;
+    margin-right: 25px;
+    margin-top: 12px;
+    display: inline;
+}
+
+#liveBtn{
+    background-color: #E21E22;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#liveBtn span {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #liveBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+  }
+  
+  #liveBtn:hover span {
+    padding-right: 10px;
+  }
+  
+  #liveBtn:hover span:after {
+    opacity: 1;
+  }
+
+
+#headerTeams {
+    position: relative;
+    float: right;
+    left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 100%;
+    word-spacing: 10px;
+    display: inline;
+    overflow: hidden;
+}
+
+#headerLplLower{
+    clear: both;
+    position: relative;
+    background-image: url("../images/lower_header_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 125%;
+    animation-name: kenburns-left;
+    background-position: 0% 15%;
+    height: 700px;
+}
+
+#headerNavbar{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 80px;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+#logoLpl{
+    width: 220px;
+    position: relative;
+}
+
+#leftNavbar{
+    float: left;
+    width: 40%;
+}
+
+#rightNavbar{
+    float: right;
+    width: 40%;
+}
+
+#logoLplDiv{
+    align-content: center;
+    padding: 20px;
+    display: inline-block;
+    width: 20%;
+}
+
+#headerRightSection{
+    float: right;
+    height: 300px;
+    width: 650px;
+    margin-top: 120px;
+    clear: both;
+}
+
+#headerRightSectionDate{
+    float: left;
+    background-color: #C99837;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+   
+}
+
+#headerRightSectionText{
+    clear: both;
+    float: left;
+    color: #C99837;
+    background-color: rgba(8, 10, 61, 0.53);
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 450;
+}
+
+#headerRightSectionTeams{
+    clear: both;
+    float: left;
+    color: white;
+    background-color: rgba(8, 10, 61, 0.53);
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#headerRightSectionBtnReport{
+    clear: both;
+    float: left;
+    margin-top: 60px;
+}
+
+#btnWatchReport{
+    background-color:#C99837;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#btnWatchReport:hover {
+    background-color:#b6892e
+}
+
+.headerNavBarBtn{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    float: left;
+}
+
+.navBtn{
+    margin-left: 60px;
+}
+
