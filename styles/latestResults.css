@@ -1,8 +1,3 @@
-body, html {
-    margin: 0;
-    font-family: 'Oswald', sans-serif;
-}
-
 #finalResultText{
 
     text-align: center;
@@ -30,6 +25,7 @@ body, html {
 
 #latestResultContent{
     width: 80%;
+    height: 350px;
     margin: auto;
     margin-top: 60px;
 }

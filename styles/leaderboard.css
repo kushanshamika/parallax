@@ -1,12 +1,6 @@
-body, html {
-    margin: 0;
-    height: 100%;
-    font-family: 'Oswald', sans-serif;
-}
-
 #leaderboard {
     background-image: linear-gradient(rgba(8, 10, 61, 0.78), rgba(8, 10, 61, 0.78)), url("../images/ground.jpg");
-    height: 60%;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,7 +44,7 @@ body, html {
 }
 
 #team-name {
-    width: 700px;
+    width: 820px;
 }
 
 #points {
