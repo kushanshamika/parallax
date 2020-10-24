@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 80px;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color:rgb(8, 10, 61);
+    text-align: center;
+}
+
+img{
+    border-radius: 50px;
+}
+
+h3{
+    color: rgb(187, 151, 65);
+}
+
+heading.h4{
+    color: rgb(8, 10, 61);
+}
+
+heading.h5{
+    color: rgb(8, 10, 61);
+}
+
+.kandy {
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+
+.dabulla {
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+
+#kandyScoreLine1, #dabullaScoreLine1 {
+    color: rgb(187, 151, 65);
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#kandyScoreLine2, #dabullaScoreLine2, #vs{
+    color: rgb(8, 10, 61);
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#KandyScoreLine3, #dabullaScoreLine3{
+    color: rgb(8, 10, 61);
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.dabulla, .kandy{
+    display: inline-block;
+}
+
+hr{
+    border: 5px, solid;
+    color: rgb(187, 151, 65);
+}
+
+#winningResults{
+    color:rgb(8, 10, 61);
+    text-align: center;
+}
