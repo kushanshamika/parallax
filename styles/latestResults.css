@@ -1,14 +1,6 @@
 body, html {
     margin: 0;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 50px;
-    height: 100%;
     font-family: 'Oswald', sans-serif;
-}
-
-#latestResultContent{
-    margin-top: 50px;
 }
 
 #finalResultText{
@@ -17,6 +9,7 @@ body, html {
     font-size: 50px;
     width: 25%;
     margin: auto;
+    margin-top: 50px;
 }
 
 #matchType{
@@ -32,32 +25,35 @@ body, html {
 
 #latestResultTeam1{
     float: left;
-    width: 17%;
+    width: 18%;
+}
+
+#latestResultContent{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
 }
 
 #latestResultTextContent{
     float: left;
-    width: 64.5%;
-    margin-top: -20px;
+    width: 60%;
 }
 
 #latestResultTeam1Score{
     float: left;
-    padding-left: 10px;
-    margin-top: 25px;
-    width: 38%;
+    width: 30%;
 }
 
 #latestResultTeam2ScoreLine1{
-    padding-left: 150px;
+    padding-left: 80px;
 }
 
 #latestResultTeam2ScoreLine2{
-    padding-left: 150px;
+    padding-left: 80px;
 }
 
 #latestResultTeam2ScoreLine3{
-    padding-left: 150px;
+    padding-left: 80px;
 }
 
 .latestResultTeamScoreLine1{
@@ -80,33 +76,32 @@ body, html {
 #latestResultVs{
     float: left;
     text-align: center;
-    font-size: 30px;
+    font-size: 80px;
     color:#080A3D;
-    margin-top: 80px;
-    font-weight: 600;
-    width: 18%;
+    margin-top: 50px;
+    margin-left: 65px;
+    font-weight: 400;
+    width: 30%;
 }
 
 #latestResultTeam2Score{
-    float: left;
-    width: 40%;
-    margin-top: 25px;
-}
-
-#winningResults{
-    clear: both;
-    margin-top: 50px;
-    padding-right: 20px;
-    padding-left: 12px;
-    color:#080A3D;
-    font-size: 20px;
-    font-weight: 450;
-    text-align: center;
+    float: right;
+    width: 30%;
 }
 
 #latestResultTeam2{
     float: left;
-    width: 17%;
+    width: 18%;
+}
+#winningResults{
+    clear: both;
+    margin-top: 50px;
+    padding-right: 20px;
+    padding-left: 80px;
+    color:#080A3D;
+    font-size: 20px;
+    font-weight: 450;
+    text-align: center;
 }
 
 .latestResultTeamLogo{
