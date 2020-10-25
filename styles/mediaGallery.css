@@ -31,6 +31,14 @@
     vertical-align: middle;
     width: 100%;
 }
+
+.galleryImage{
+  transition: transform .5s;
+}
+
+.galleryImage:hover {
+  transform: scale(1.5);
+}
  
 @media screen and (max-width: 800px) {
     .column {

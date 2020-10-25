@@ -1,13 +1,9 @@
-body, html {
-    margin: 0;
-    font-family: 'Oswald', sans-serif;
-}
-
 .footer {
-    padding: 10px 80px 0 80px;
-    overflow: hidden;
+    height: 250px;
     background-color: #080A3D;
-    height: 230px;
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow: auto;
 }
 
 .footer img {
@@ -41,16 +37,18 @@ body, html {
 input[type="text"] {
     width: 300px;
     height: 29px;
+    float: left;
 }
 
-input[type="submit"] {
+#submitBtn{
     margin-left: -50px;
-    height: 37px;
+    height: 29px;
     width: 80px;
     background: #C99837;
     color: white;
     border: 0;
     font-size: large;
+    float: left;
 }
 
 #copyright-text {
@@ -58,12 +56,12 @@ input[type="submit"] {
     color: #707070;
 }
 
-#disgnedby-text {
+#designedby-text {
     float: right;
     color: #707070;
 }
 
-#disgnedby-text a {
+#designedby-text a {
     color: white;
     text-decoration: none;
 }
