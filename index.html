@@ -1,15 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lankan Premier League</title>
 
     <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/latestResults.css">
+    <link rel="stylesheet" href="styles/leaderboard.css">
+    <link rel="stylesheet" href="styles/mediaGallery.css">
+    <link rel="stylesheet" href="styles/ticketGrabbing.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/71e9b0d6d5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <div>
+        <div id="headerLplUpper">
+
+            <img id="getTicketsIcon" src="images/ticket_icon.svg" alt="tickets on fire">
+            <div id="headerGetTickets">
+                <p>GET TICKETS</p>
+            </div>
+
+
+
+            <div id="headerTeams">
+                <p>Galle Gladiators vs Colombo Kings</p>
+            </div>
+
+            <div id="headerLiveBtnDiv">
+                <button id="liveBtn"><span>LIVE</span></button>
+            </div>
+
+
+        </div>
+
+        <div id="headerLplLower">
+
+            <div id="headerNavbar">
+                <div id="leftNavbar">
+                    <div class="headerNavBarBtn">MATCHES</div>
+                    <div class="headerNavBarBtn navBtn">VIDEOS</div>
+                    <div class="headerNavBarBtn navBtn">TRENDING</div>
+                </div>
+
+                <div id="logoLplDiv">
+                    <img id="logoLpl" src="images/logo.png" alt="lpl logo">
+                </div>
+
+                <div id="rightNavbar">
+                    <div class="headerNavBarBtn">STATS</div>
+                    <div class="headerNavBarBtn navBtn">FANTACY</div>
+                    <div class="headerNavBarBtn navBtn">TEAMS</div>
+                    <div class="headerNavBarBtn navBtn">NEWS</div>
+                    <div class="headerNavBarBtn navBtn">MORE</div>
+                </div>
+            </div>
+
+            <div id="headerRightSection">
+                <div id="headerRightSectionDate">JAN 16, 2021 IST</div>
+                <div id="headerRightSectionText">LATEST MATCH</div>
+                <div id="headerRightSectionTeams">COLOMBO KINGS vs KANDY TUSKERS</div>
+                <div id="headerRightSectionBtnReport"><button id="btnWatchReport">Watch Report</button></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="latestResults">
+        <div id="finalResultText">LATEST RESULT</div>
+        <div id="matchType">SEMI FINALS</div>
+
+    </div>
+
+
+    <div id="latestResultContent">
+
+        <div id="latestResultTeam1">
+            <img class="latestResultTeamLogo" src="images/Team Logos/KandyTuskers_Logo.jpg" alt="KandyTuskers_Logo">
+        </div>
+
+        <div id="latestResultTextContent">
+
+            <div id="latestResultTeam1Score">
+                <div class="latestResultTeamScoreLine1">KANDY</div>
+                <div class="latestResultTeamScoreLine2">TUSKERS</div>
+                <div class="latestResultTeamScoreLine3">100/5</div>
+            </div>
+
+            <div id="latestResultVs">VS</div>
+
+            <div id="latestResultTeam2Score">
+                <div id="latestResultTeam2ScoreLine1" class="latestResultTeamScoreLine1">BADULLA</div>
+                <div id="latestResultTeam2ScoreLine2" class="latestResultTeamScoreLine2">HAWKS</div>
+                <div id="latestResultTeam2ScoreLine3" class="latestResultTeamScoreLine3">120/9</div>
+            </div>
+
+            <div id="winningResults">
+                <hr>
+                Dabulla Hawks won by 20 runs
+            </div>
+
+        </div>
+
+        <div id="latestResultTeam2">
+            <img class="latestResultTeamLogo" src="images/Team Logos/DabullaHawks_Logo.jpg" alt="DabullaHawks_Logo">
+        </div>
+
+    </div>
+
+    <div id="leaderboard">
+        <div id="leaderboard-header">Leaderboard</div>
+        <table>
+            <tr>
+                <th id="team-no"></th>
+                <th id="team-name">Team</th>
+                <th id="points">PLD</th>
+                <th id="points">WON</th>
+                <th id="points">LOST</th>
+                <th id="points">TIED</th>
+                <th id="points">PTS</th>
+                <th id="points">NET RR</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GALLE GLADIATORS</td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+                <td>0</td>
+                <td>14</td>
+                <td>+1.448</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>COLOMBO KINGS</td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+                <td>0</td>
+                <td>14</td>
+                <td>+0.434</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>KANDY TASKERS</td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+                <td>0</td>
+                <td>14</td>
+                <td>+0.182</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>DAMBULLA HAWKS</td>
+                <td>10</td>
+                <td>5</td>
+                <td>5</td>
+                <td>0</td>
+                <td>10</td>
+                <td>-0.476</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>JAFFNA STALLIONS</td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+                <td>0</td>
+                <td>14</td>
+                <td>+0.092</td>
+            </tr>
+          </table>
+    </div>
+
+    <div id="mediaGalleryHeader">MEDIA GALLERY</div>
+    <div id="mediaGalleryDiv">
+        <div class="row">
+            <div class="column">
+                <img class = "galleryImage" src="images/MediaGallery/Trouphy.jpeg" alt="Trouphy" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/HighFive.jpeg" alt="HighFive" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/CricketPlayerSixer.jpg" alt="CricketPlayerSixer" style="width: 100%;">
+                <img class = "galleryImage" src="images/MediaGallery/Cover.jpg" alt="Cover" style="width: 100%">
+                <img class = "galleryImage" src="images/MediaGallery/WicketCatch.jpg" alt="WicketCatch" style="width: 100%">
+            </div>
+            <div class="column">
+                <img class = "galleryImage" src="images/MediaGallery/DJBravo.jpeg" alt="DJBravo" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/CricketBall.jpeg" alt="CricketBall" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/MumbaiIndiansPlayer.jpeg" alt="MumbaiIndiansPlayer" style="width:100%">
+            </div>
+            <div class="column">
+                <img class = "galleryImage" src="images/MediaGallery/RCBFeilder.jpeg" alt="RCBFeilder" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/MSDohniBalling.jpeg" alt="MSDoni" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/RedTeam.jpg" alt="RedTeam" style="width: 100%">
+                <img class = "galleryImage" src="images/MediaGallery/HighFive.jpeg" alt="HighFive" style="width: 100%">
+            </div>
+            <div class="column">
+                <img class = "galleryImage" src="images/MediaGallery/WannerWithHisDaughter.jpg" alt="DJBravo" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/NiceCatch.jpg" alt="CricketBall" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/BatsmanJumpWithJoy.jpg" alt="MumbaiIndiansPlayer" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/MissedTheCatch.jpg" alt="MumbaiIndiansPlayer" style="width:100%">
+                <img class = "galleryImage" src="images/MediaGallery/InOneKnee.jpg" alt="CricketBall" style="width:100%">
+            </div>
+        </div>
+    </div>
+
+    <div id="ticketGrabbingDiv">
+        <div id="ticketGrabbingLeftSection">
+            <div id="ticketGrabbingLetsGrab">LETS GRAB</div>
+            <div id="ticketGrabbingWinningMovements">WINNING MOVEMENTS</div>
+            <div id="ticketGrabbingPurchaseBtn"><button id="btnWatchReport">Purchase Tickets</button></div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="images/logo.png" height="90px" alt="" >
+        <div class="footer-navigation">
+            <h3>QUICK LINKS</h3>
+            <div class="nav-left">
+                <span>News</span><br>
+                <span>Shedule</span><br>
+                <span>Videos</span><br>
+                <span>Venus</span><br>
+            </div>
+            <div class="nav-right">
+                <span>About Us</span><br>
+                <span>Contact Us</span><br>
+                <span>Teams</span><br>
+                <span>Sponsorship</span><br>
+            </div>
+        </div>
+        <div class="footer-subscribe">
+            <h3>SIGN UP FOR EMAIL ALERTS</h3>
+            <input type="text">
+            <button id="submitBtn">Search</button>
+        </div>
+        <div style="clear: both;"></div>
+        <hr style="color: #707070;"">
+        <div id="copyright-text">
+            <span>Copyright © 2020 SLCB. All rights reserved</span>
+        </div>
+        <div id="footer-icons">
+            <i class="fab fa-facebook-f fa-lg"></i>
+            <i class="fab fa-google-plus-square fa-lg"></i>
+            <i class="fab fa-instagram fa-lg"></i>
+            <i class="fab fa-twitter fa-lg"></i>
+        </div>
+        <div id="designedby-text">
+            <span>Proudly designed and developed at <a href="#">Hitan Labs</a></span>
+        </div>
+        
+    </div>​
+
 </body>
+
 </html>
